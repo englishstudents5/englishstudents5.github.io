@@ -1,0 +1,138 @@
+/* this is for index.html file*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+.home{
+    background: url(cover.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+/*this is just the top bar of the navigation bar */
+
+
+.topnav {
+    overflow: hidden;
+    
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+/*this is input of the search bar*/
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*this is the search bar settings*/
+
+.topnav input[type=text]{
+    float: right;
+    width: 225px;
+    height: 30px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 17px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    font-size: 17px;
+    border-radius: 30;
+}
+
+button {
+    float: right;
+    width: 50px;
+    height: 36px;
+    padding: 10px;
+    background: rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-right: -283px;
+    margin-top: 17px;
+    border-color:rgb(0, 4, 238);
+    border-radius: none;
+    
+    
+}
+img{
+    width: 18px;
+    height: 17px;
+}
+/* here the logo stylings */
+.circle{
+    
+    width: 150px;
+    height: 100px;
+    line-height: 30px;
+    background-color: rgb(97, 202, 65);
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#logo {
+    color: rgb(248, 223, 0);
+    width: 110px;
+    height: 40px;
+    margin-top: -50px;
+    margin-left: 0px;
+    padding: 15px;
+}
+    .headings{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    /*this heading is for the heading h1 (S5 Students)*/
+    .headings h1{
+        color: black;  
+        margin-top: 0;
+        text-align: center;    
+    }
+.headings p{
+    font-size: 20px;
+    margin-right: 14px;
+    text-align: center;
+}
+
+.links{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    min-height: 1px;  
+    margin-bottom: -100px; 
+}
+/* here i am going to style the html number 2 named interfaith dialogue.html*/
+.center-text {
+    background-color: rgb(128,128,120);
+    text-align: center;
+    font-size: 30px;
+    height: 150vh;
+    margin-top: -30px;
+}
+/* this to style the world literature.html file*/
+.center-text p2{
+    background-color: rgb(128,128,120);
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+
+
